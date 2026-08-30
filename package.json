@@ -1,0 +1,30 @@
+{
+  "name": "@wyatt/cf-worker-utils",
+  "version": "0.1.0",
+  "description": "Cloudflare Workers utilities — SWR cache, circuit breaker, rate limiter, security headers, and structured logging",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint src/",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "cloudflare",
+    "workers",
+    "cache",
+    "circuit-breaker",
+    "rate-limiter",
+    "security-headers",
+    "logger"
+  ],
+  "license": "MIT OR Apache-2.0",
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "vitest": "^1.0.0"
+  }
+}
