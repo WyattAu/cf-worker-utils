@@ -34,10 +34,7 @@ export class SWRCache {
     }
 
     if (now > entry.staleAt) {
-      return { value: entry.stale, stale: true } as unknown as {
-        value: T;
-        stale: boolean;
-      };
+      return { value: entry.value, stale: true };
     }
 
     return { value: entry.value, stale: false };

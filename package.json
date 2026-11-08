@@ -1,5 +1,5 @@
 {
-  "name": "@wyatt/cf-worker-utils",
+  "name": "@pepwiki/cf-worker-utils",
   "version": "0.1.0",
   "description": "Cloudflare Workers utilities — SWR cache, circuit breaker, rate limiter, security headers, and structured logging",
   "type": "module",
@@ -24,6 +24,7 @@
   ],
   "license": "MIT OR Apache-2.0",
   "devDependencies": {
+    "@cloudflare/workers-types": "^5.20261108.1",
     "typescript": "^5.4.0",
     "vitest": "^1.0.0"
   }
